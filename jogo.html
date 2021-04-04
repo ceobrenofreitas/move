@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/css/main.css">
+</head>
+<body>
+    <div class="telaGame">
+        <div class="status">
+            <ul>
+                <li>Posição X Atual: </li>
+                <li id="statusPX"> </li>
+            </ul>
+
+            <ul>
+                <li>Posição X Anterior: </li>
+                <li id="statusPAX"> </li>
+            </ul>
+
+            <ul>
+                <li>Posição Y Atual: </li>
+                <li id="statusPY"> </li>
+            </ul>
+
+            <ul>
+                <li>Posição Y Anterior: </li>
+                <li id="statusPAY"> </li>
+            </ul>
+            
+        </div>
+
+
+        <div class="controles">
+
+            <div class="buttons">
+                <button id="btnDireita" onclick="direita()"><i class="bi bi-caret-right"></i></button>
+                <button id="btnEsquerda" onclick="esquerda()"><i class="bi bi-caret-left"></i></button>
+                <button id="btnCima" onclick="cima()"><i class="bi bi-caret-up"></i></button>
+                <button id="btnBaixo" onclick="baixo()"><i class="bi bi-caret-down"></i></button>
+            </div>
+            
+        </div>
+
+        <div id="caixa1" class="caixa1">
+            caixa1
+        </div>
+        <div id="caixa" class="caixa"></div>
+
+        <div class="piso"></div>
+
+    </div>
+
+
+    <style>
+
+        .caixa{
+            background-image: url('./src/img/direita.svg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+
+    <script src="./src/js/controls.js"></script>
+</body>
+</html>
