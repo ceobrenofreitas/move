@@ -8,7 +8,6 @@ Implementações a fazer:
 <br>
 [ ] Criar bordas relativas (max-width, max-height) para limitar a view da engine.
    - Poderia ser um Canvas? Poderia, mas queria fazer o mais puro possível (comentem se isso é uma boa pratica, ou seria melhor usar o Canvas mesmo).
-<br>
 [ ] Criar um sistema de menu ou rotas.
 <br>
 [ ] Color sons e ajustes básicos.
