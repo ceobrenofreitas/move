@@ -1,8 +1,8 @@
-Olá!
+# Olá!
 
 Neste projeto eu quis criar uma Engine usando Javascript puro interagindo com o HTML e CSS.
 
-Implementações a fazer:
+### Implementações a fazer:
 
 - [ ] Fazer o  #Player mudar sua imagem de acordo com a direção do movimento.
 
